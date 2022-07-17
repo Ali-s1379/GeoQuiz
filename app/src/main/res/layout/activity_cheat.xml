@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".CheatActivity">
+
+    <TextView
+        android:id="@+id/textView_warning"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:paddingBottom="60dp"
+        android:text="@string/are_you_sure"
+        android:textColor="#9C27B0"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView_question2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:paddingBottom="40dp"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/button_reveal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:onClick="revealAnswer"
+        android:text="@string/reveal_answer" />
+</LinearLayout>
